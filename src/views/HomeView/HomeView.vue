@@ -1,5 +1,7 @@
 <template>
-  <div class="home">This is a home page and home view</div>
+  <div class="home">
+    This is a home page and home view. We are currentky on dev branch.
+  </div>
 </template>
 
 <script>
