@@ -1,0 +1,109 @@
+.header {
+    height: 100vh;
+    position: relative;
+    background: radial-gradient(84.79% 172.9% at 73.31% 31.4%,
+            rgba(99, 135, 241, 0.1) 0%,
+            rgba(218, 70, 239, 0.05) 52.47%,
+            rgba(99, 135, 241, 0.1) 100%);
+
+    .intro {
+        position: absolute;
+        height: calc(100% - 76px);
+        top: 76px;
+        left: 0;
+        background: url('../../assets/bg-shapes.png');
+        display: flex;
+
+        .title {
+            margin: auto 0;
+            padding: 4.5rem;
+
+            h3 {
+                color: #6366F1;
+                font-size: 28px;
+                line-height: 130%;
+                font-family: 'Manrope';
+                font-style: normal;
+                font-weight: bolder;
+            }
+
+            h1 {
+                color: #131022;
+                font-size: 80px;
+                line-height: 130%;
+                width: 50%;
+            }
+        }
+
+        .location {
+            font-size: 20px;
+            line-height: 160%;
+            color: #585C7B;
+            font-weight: 400;
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            width: 40%;
+            padding: 1rem 0;
+
+            img {
+                margin: 0.4rem 0.4rem 0 0;
+            }
+        }
+
+        .btn-groups {
+            display: flex;
+
+            button {
+                padding: 13px 32px;
+                margin-right: 24px;
+                font-size: 1rem;
+                line-height: 160%;
+                background: #6366F1;
+                border-radius: 6px;
+                border: 1px solid #6366F1;
+                color: white;
+                cursor: pointer;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                &.light {
+                    background: white;
+                    color: #6366F1;
+
+                    img {
+                        margin-right: 8px;
+                    }
+                }
+
+                &.dark {
+                    box-shadow: 0px 8px 18px -8px rgba(99, 102, 241, 0.9);
+                }
+            }
+        }
+
+        .clients {
+            margin-top: 10rem;
+            display: flex;
+            align-items: center;
+            color: #585C7B;
+
+            .img-groups {
+                display: inline;
+                margin-right: 1rem;
+
+                *:not(.first) {
+                    margin-left: -1rem;
+                }
+            }
+
+            .clients-number {
+                display: inline-block;
+                margin-right: 0.4rem;
+                color: #6366F1;
+                font-weight: bolder;
+            }
+        }
+    }
+}
