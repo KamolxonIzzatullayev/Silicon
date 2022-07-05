@@ -1,12 +1,14 @@
 <template>
   <div class="home">
-    This is a home page and home view. We are currentky on dev branch.
+    <HeaderSection />
   </div>
 </template>
 
 <script>
+import HeaderSection from "@/components/HeaderSection.vue/HeaderSection.vue";
 export default {
   name: "HomeView",
+  components: { HeaderSection },
 };
 </script>
 
