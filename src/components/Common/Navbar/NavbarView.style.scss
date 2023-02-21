@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1296px;
+    margin: 0 auto;
+}
+
+.v-navbar {
+    background: #201a2f;
+    padding: 16px 0;
+
+    .nav {
+        color: #ffffff;
+
+        &__logo {
+            margin-right: 24px;
+        }
+
+        &--list--item {
+            margin-left: 24px;
+
+            :hover {
+                opacity: 0.6;
+            }
+        }
+
+        &__btn {
+            background: #6366f1;
+            border-radius: 4px;
+            padding: 0 20px 0 20px;
+            cursor: pointer;
+        }
+    }
+}
