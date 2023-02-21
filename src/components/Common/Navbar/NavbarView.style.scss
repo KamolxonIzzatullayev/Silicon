@@ -1,38 +1,33 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.container {
-    width: 1296px;
-    margin: 0 auto;
-}
-
-.v-navbar {
+.cm-navbar {
     background: #201a2f;
     padding: 16px 0;
+    font-family: "Manrope", sans-serif;
 
-    .nav {
-        color: #ffffff;
+    .container {
+        width: 1296px;
+        margin: 0 auto;
 
-        &__logo {
-            margin-right: 24px;
-        }
+        .nav {
+            color: #ffffff;
 
-        &--list--item {
-            margin-left: 24px;
-
-            :hover {
-                opacity: 0.6;
+            &-list__logo {
+                margin-right: 24px;
             }
-        }
 
-        &__btn {
-            background: #6366f1;
-            border-radius: 4px;
-            padding: 0 20px 0 20px;
-            cursor: pointer;
+            &-list__item {
+                margin-left: 24px;
+
+                :hover {
+                    opacity: 0.6;
+                }
+            }
+
+            &__btn {
+                background: #6366f1;
+                border-radius: 4px;
+                padding: 0 20px 0 20px;
+                cursor: pointer;
+            }
         }
     }
 }
