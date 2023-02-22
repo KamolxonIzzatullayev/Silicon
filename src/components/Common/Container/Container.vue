@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="cm-container">
         <slot></slot>
     </div>
 </template>
@@ -9,9 +9,5 @@ export default {};
 </script>
 
 <style lang="scss" scoped>
-.container {
-    width: 1296px;
-    margin: 0 auto;
-    font-family: "Manrope", sans-serif;
-}
+@import "./Container.style.scss";
 </style>
