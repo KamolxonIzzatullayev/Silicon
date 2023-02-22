@@ -1,7 +1,7 @@
 <template>
     <div class="cm-navbar">
         <section>
-            <div class="container">
+            <Container>
                 <nav class="nav flex justify-between">
                     <ul class="nav-list flex items-center">
                         <li class="nav-list__logo">
@@ -28,21 +28,25 @@
                             <a href="#">Contact</a>
                         </li>
                     </ul>
-                    <a class="nav__btn flex items-center">
+                    <button class="nav__btn flex items-center">
                         <img
                             src="@/assets/navbar/up.svg"
                             alt="Registration"
                         /><span class="ml-2">Sign in / up</span>
-                    </a>
+                    </button>
                 </nav>
-            </div>
+            </Container>
         </section>
     </div>
 </template>
 
 <script>
+import Container from "../Container/Container.vue";
 export default {
     name: "NavbarView",
+    components: {
+        Container,
+    },
 };
 </script>
 
